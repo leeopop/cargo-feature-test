@@ -5,8 +5,8 @@ authors = ["Keunhong Lee <dlrmsghd@gmail.com>"]
 edition = "2018"
 
 [dependencies]
-log = "*"
+log = {version = "*"}
 simple_logger = "*"
 
 [features]
-release_max_level_off = []
+release_max_level_off = ["log/release_max_level_off"]
